@@ -1,0 +1,17 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+    grid-area: experience;
+
+    h2 {
+        font-size: 24px;
+        font-weight: 400;
+        color: var(--primary-color);
+        margin-bottom: 20px;
+    }
+
+    span {
+        font-size: 24px;
+        color: var(--primary-color);
+    }
+}
