@@ -2,5 +2,18 @@ h3 {
     color: var(--primary-color);
     font-weight: 500;
     font-size: 18px;
-    background-color: red;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+@media(min-width: 768px) {
+    h2 {
+        text-align: left;
+    }
+    h3 {
+        text-align: left;
+    }
 }

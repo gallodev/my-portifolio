@@ -1,3 +1,37 @@
 .info-container {
     grid-area: info;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    max-width: 500px;
+
+    .languages-info {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    
+        span {
+            font-size: 24px;
+            color: var(--secondary-color);
+        }
+    }
+
+    .education-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        span {
+            &:first-child {
+                font-size: 30px;
+            }
+            &:last-child {
+                color: var(--secondary-color);
+                text-align: center;
+                width: 331px;
+                font-size: 24px;
+            }
+        }
+    }
 }
+

@@ -1,0 +1,43 @@
+.progress {
+    position: relative;
+    width: 300px;
+    height: 28px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 24px;    
+    margin-bottom: 20px;
+
+    .progress-bar {
+        background: linear-gradient(90deg, #777CF4 2.62%, #F47777 93.38%);
+        height: 28px;
+        border-radius: 24px;
+
+        span {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 19px;
+        }
+
+        &.mesure-8 {
+            width: 100%;
+        }     
+
+       &.mesure-4 {
+        width: 70%;
+       }
+
+       &.mesure-5 {
+        width: 80%;
+       }
+
+       &.mesure-3 {
+        width: 60%;
+       }
+
+       &.mesure-2 {
+         width: 50%;
+       }
+
+    }
+
+}
