@@ -13,7 +13,7 @@ export function Header(){
                 priority
             />
             <div>
-                <h2>Hi, i´m Christian! 👋</h2>
+                <h2>{"Hi, i'm Christian! 👋"}</h2>
                 <h3>Front end Developer</h3>
             </div>
         </div>

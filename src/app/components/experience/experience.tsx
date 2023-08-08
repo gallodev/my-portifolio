@@ -5,7 +5,7 @@ export function Experience(){
     return(
         <div className="experience">
             <h2>Experience</h2>
-            <span>12 years working as a Software Developer, in companys such as Claro, Dasa and Hubla.</span>
+            <span>{"I've been working 12 years as a Software Developer in companys such as Claro, Dasa and Hubla."}</span>
             <div className="progress-container">
                 <Progress icon='/javascript.png' name='javascript' year={8}/>
                 <Progress icon='/node.png' name='node' year={5}/>
