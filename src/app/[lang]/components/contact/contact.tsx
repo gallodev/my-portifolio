@@ -6,7 +6,11 @@ import { TwitterIcon } from '../icons/twitterIcon'
 import './contact.scss'
 import Link from 'next/link'
 
-export function Contact(){
+interface IContact {
+    contact: string
+}
+
+export function Contact({ contact } : IContact){
     return(
         <div className="contact-info">
             <div className="social-networks">
@@ -23,7 +27,7 @@ export function Contact(){
                     <Link href={'https://www.twitter.com/'} target='_blank'><TwitterIcon/></Link>
                 </div>
             </div>
-            <a className="contact-me-btn" href="mailto:contato.gallodev@gmail.com?subject=Contato pelo site&body=Contato enviado pelo portifolio">Contact me <MailIcon/></a>
+            <a className="contact-me-btn" href="mailto:contato.gallodev@gmail.com?subject=Contato pelo site&body=Contato enviado pelo portifolio">{contact} <MailIcon/></a>
         </div>
     )
 }

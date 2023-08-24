@@ -1,0 +1,19 @@
+{
+    "header": {
+        "welcome": "Hi, i'm Christian! 👋",
+        "rule": "Front end Developer"
+    },
+    "experience": {
+        "title": "Experience",
+        "description": "I've been working 12 years as a Software Developer in companys such as Claro, Dasa and Hubla.",
+        "time": "years"
+    },
+    "infos": {
+        "englishLevel": "Mid level",
+        "portugueseLevel": "Native Speaker",
+        "schoolDegree": "Full stack developer Degree"
+    },
+    "contact": {
+        "contact": "Contact me"
+    }
+}

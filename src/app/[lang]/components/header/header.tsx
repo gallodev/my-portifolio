@@ -1,8 +1,15 @@
+'use client'
 import Image from 'next/image'
 
 import "./header.scss"
 
-export function Header(){
+interface HeaderProps {
+    welcome: string,
+    rule: string
+}
+
+export async function Header({ welcome , rule } : HeaderProps){
+
     return(
         <div className="header">
             <Image
@@ -13,8 +20,8 @@ export function Header(){
                 priority
             />
             <div>
-                <h2>{"Hi, i'm Christian! 👋"}</h2>
-                <h3>Front end Developer</h3>
+                <h2>{welcome}</h2>
+                <h3>{rule}</h3>
             </div>
         </div>
     )

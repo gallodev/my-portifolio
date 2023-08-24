@@ -5,9 +5,10 @@ interface ProgressProps {
     icon: string;
     name: string;
     year: number;
+    time: string
 }
 
-export function Progress({ name, year , icon} : ProgressProps){
+export function Progress({ name, year , icon, time} : ProgressProps){
 
     const progressClassName = 'progress-bar mesure-' + year
 
@@ -20,7 +21,7 @@ export function Progress({ name, year , icon} : ProgressProps){
                 height={30}
             />
             <div className="progress">
-                <div className={progressClassName}><span>{year} years</span></div>
+                <div className={progressClassName}><span>{year} {time}</span></div>
             </div>
         </div>
     )
