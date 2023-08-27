@@ -13,7 +13,7 @@ export async function Header({ welcome , rule } : HeaderProps){
     return(
         <div className="header">
             <Image
-                src="/profile.jpg"
+                src="/assets/profile.jpg"
                 alt="Profile picture"
                 width={180}
                 height={37}

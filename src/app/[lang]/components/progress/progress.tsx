@@ -19,6 +19,7 @@ export function Progress({ name, year , icon, time} : ProgressProps){
                 alt={name}
                 width={36}
                 height={30}
+                priority
             />
             <div className="progress">
                 <div className={progressClassName}><span>{year} {time}</span></div>
