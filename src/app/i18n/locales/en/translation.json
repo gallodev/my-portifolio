@@ -9,6 +9,8 @@
         "time": "years"
     },
     "infos": {
+        "title": "Languages",
+        "subtitle": "Education",
         "englishLevel": "Mid level",
         "portugueseLevel": "Native Speaker",
         "schoolDegree": "Full stack developer Degree"

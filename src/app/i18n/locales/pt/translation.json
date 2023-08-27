@@ -9,6 +9,8 @@
         "time": "anos"
     },
     "infos": {
+        "title": "Linguas",
+        "subtitle": "Educação",
         "englishLevel": "Nível intermediário",
         "portugueseLevel": "Nátivo",
         "schoolDegree": "Desenvolvedor Full Stack"
