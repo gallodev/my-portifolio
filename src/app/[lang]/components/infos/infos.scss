@@ -33,5 +33,31 @@
             }
         }
     }
+
+    .translate-info {
+        margin-top: 35px;
+        .translate-btn {            
+            background: linear-gradient(90deg, #777CF4 2.62%, #F47777 93.38%);
+            width: 100%;
+            border-radius: 24px;
+            height: 55px;
+            font-weight: 500;
+            color: var(--primary-color);
+            text-transform: uppercase;
+            font-size: 20px;
+            cursor: pointer;
+            line-height: 55px;
+            text-align: center;
+            text-decoration: none;
+            display: flex;
+            justify-content: space-around;
+
+            a {
+                color: #FFF;
+                text-decoration: none;
+            }                        
+        }
+    }
+
 }
 
